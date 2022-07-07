@@ -1,0 +1,131 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+li{
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+}
+.header_menu{
+    display: flex;
+    list-style-type: none;
+}
+.header_rogo{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    width: 200px;
+}
+.header_list{
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.header_sns{
+    margin-top: 10px;
+    width: 40px;
+    padding-right: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-image: url(images/t.png);
+}
+.concept{
+    padding-top: 150px;
+}
+.conceptmenu{
+    display: flex;
+    justify-content: center;
+}
+.conceptmenu img{
+    width: 340px;
+}
+.title h2{
+    font-size: 32px;
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 0.15em;
+}
+.title p{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.15em;
+    margin-top: 30px;
+}
+.title{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.menulist{
+    text-align: center;
+}
+.menu_01{
+    width: 90%;
+    height: 90%;
+    margin-top: 70px;
+}
+.menu_02{
+    width: 90%;
+    height: 90%;
+    margin-bottom: 50px;
+}
+.snslink{
+    display: flex;
+}
+.insta{
+    width: 40px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.twitter{
+    width: 45px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.footer_image{
+    width: 150px;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+.footer_box{
+    margin-left: 1100px;
+    list-style-type: none;
+    margin-top: -160px;
+}
+.footer_menu{
+    font-size: 26px;
+    color: #525252;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #FFF0F0;
+}
+.footer_copyrighy{
+    margin-top: 5px;
+    margin-left: 130px;
+    color: #525252;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 30px;
+}

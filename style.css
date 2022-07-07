@@ -1,0 +1,245 @@
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+li{
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+}
+.header_menu{
+    display: flex;
+    list-style-type: none;
+}
+.header_rogo{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 30px;
+    width: 200px;
+}
+.header_list{
+    margin-right: 60px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.header_sns{
+    margin-top: 10px;
+    width: 40px;
+    padding-right: 30px;
+}
+.top_image{
+    width: 100%;
+}
+.news img{
+    width: 600px;
+    margin-left: 600px;
+    margin-top: -80px;
+}
+.news{
+    background-image: url(images/t.png);
+}
+.concept{
+    background-image: url(images/t.png);
+    display: flex;
+}
+.title{
+    margin-top: 190px;
+    font-size: 30px;
+    margin-left: 60px;
+    font-weight: 400;
+}
+.box{
+    background-color: #fff;
+    padding: 12px 40px 12px 40px;
+}
+.pin{
+    color: #F09AB3;
+
+}
+.conceptp{
+    margin-top: 330px;
+    margin-left: -300px;
+    line-height: 2.5;
+}
+.group{
+    width: 550px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 150px;
+}
+.tagu{
+    background-image: url(images/t.png); 
+}
+.tagu img{
+    width: 100%;
+    margin-bottom: 60px;
+}
+.story_image{
+    width: 600px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.story{
+    text-align: center;
+    background-image: url(images/check.png);
+    height: 560px;
+}
+.storyp{
+    font-size: 16px;
+    line-height: 2.5;
+    letter-spacing: 0.15em;
+}
+.box2{
+    padding: 30px;
+    margin: 0px 250px 0px 250px;
+    background-color: #fff;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.hashtag_image{
+   width: 100%;
+}
+.menu{
+    margin-top: 80px;
+}
+.menutitle{
+    font-size: 30px;
+    font-weight: lighter;
+}
+.pink2{
+    color: #F09AB3;
+}
+.menuabout{
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 2.5;
+    letter-spacing: 0.15em;
+}
+.next{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.tag02{
+    background-color: black;
+    padding: 14px 80px 14px 80px;
+}
+.box3{
+    width: 370px;
+    padding: 40px;
+    margin: 20px 20px;
+    background-color: #fff;
+    border: solid 4px rgb(0, 0, 0);
+}
+.menutag{
+    display: flex;
+    justify-content: center;
+}
+.menuul{
+    display: flex;
+}
+.menuli{
+    width: 250px;
+    margin-top: 18px;
+}
+.menu_hashtag{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+.shopinfo{
+    background-image: url(images/t.png);
+}
+.shop{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.shopp{
+    font-size: 17px;
+    margin-top: 30px;
+}
+.gogle{
+    display: flex;
+    justify-content: center;
+}
+.map{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.othre{
+    background-color: black;
+    padding: 10px 80px 10px 80px;
+}
+.shoptag{
+    color: #fff;
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 60px;
+}
+.snslink{
+    display: flex;
+}
+.insta{
+    width: 40px;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.twitter{
+    width: 45px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.footer_image{
+    width: 150px;
+    margin-left: 140px;
+    margin-top: 60px;
+}
+.footer_box{
+    margin-left: 1100px;
+    list-style-type: none;
+    margin-top: -160px;
+}
+.footer_menu{
+    font-size: 26px;
+    color: #525252;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.footer{
+    background-color: #FFF0F0;
+}
+.footer_copyrighy{
+    margin-top: 5px;
+    margin-left: 130px;
+    color: #525252;
+    font-weight: 300;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
